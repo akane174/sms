@@ -1,0 +1,28 @@
+## Step 1
+Make sure to create a backup of your split file before doing this, you probably don't want to accidentally overwrite something and lose your actual PB comparison.
+
+## Step 2
+Right Click -> Edit Splits… -> Start Timer at:
+Set this value a few seconds off your goal (e.g. 1:13:55 if you want a 1:13 comparison)
+
+Select the Split Time column and delete its contents.
+
+Right Click -> Settings -> Choose Active Comparisons… -> ✔ Balanced PB
+
+## Step 3
+Start your timer, skip to the last split and stop it exactly at the time for which you would like to create a comparison. It's obviously fine if you're a few decimals off, we can easily edit this later. Make sure to reset the timer afterwards so that it saves the time as PB.
+
+## Step 4
+Right Click -> Share… -> Excel -> Share, save the .xlsx to your desktop or something.
+
+Open the generated .xlsx file (Good FOSS Office Suite: LibreOffice)
+
+Scroll over to the "Balanced PB" column, copy all the numbers.
+
+Open your splits again, Right Click -> Edit Splits… -> Add Comparison
+
+Select the first split on your new comparison and paste everything.
+
+Then adjust the final split time to end in .00 if you like.
+
+Done!
